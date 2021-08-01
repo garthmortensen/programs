@@ -1,19 +1,12 @@
-# def calc_avg_two_numbers(n1, n2):
-#     """Calculate the average of two input numbers"""
-    
-#     average = n1 + n2 / 2
-    
-#     return average
-    
-
-# def calc_roi_one_period(p1, p2):
-#     """Calculate the return on investment from period 1 to period 2.
-#     Assume that portfolio value is always positive.
-#     There are no interim PMTs."""
-    
-#     roi = (p2 - p1) / p1
-    
-#     return roi
+# =============================================================================
+# Undesirable solution 2
+#
+# Like the Undesirable 1 script, this has user inputs.
+# Also, right triangle sides a and b use the same equations.
+# If I wanted one function to calculate both side and hypotenuse,
+# I would have needed user input the determine which equation to use.
+# Since unit tests seem to be better fit for parameter inputs, I refactored.
+# =============================================================================
 
 
 def calc_pythagorean_theorem(side, length_first, length_second):

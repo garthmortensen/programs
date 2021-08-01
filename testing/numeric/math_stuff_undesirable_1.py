@@ -1,19 +1,11 @@
-# def calc_avg_two_numbers(n1, n2):
-#     """Calculate the average of two input numbers"""
-    
-#     average = n1 + n2 / 2
-    
-#     return average
-    
-
-# def calc_roi_one_period(p1, p2):
-#     """Calculate the return on investment from period 1 to period 2.
-#     Assume that portfolio value is always positive.
-#     There are no interim PMTs."""
-    
-#     roi = (p2 - p1) / p1
-    
-#     return roi
+# =============================================================================
+# Undesirable solution 1
+#
+# This does not work well for testing because I'm printing too much to console.
+# Also, this user input just doesn't work well with testing.
+# Unittests run on parameter inputs, not dynamic user inputs.
+# I had to refactor from here.
+# =============================================================================
 
 
 def calc_pythagorean_theorem():
