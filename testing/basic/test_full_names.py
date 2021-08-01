@@ -7,23 +7,23 @@ class NamesTestCast(unittest.TestCase):
     p.s. - Never update your test to make things work. Update your code!"""
 
     def test_first_last(self):
-        """Test names like Goat Mortensen"""
+        """Test names like Goat Cat"""
 
-        full_name = get_full_name("pony", "mortensen")
-        self.assertEqual(full_name, "Pony Mortensen")
+        full_name = get_full_name("pony", "cat")
+        self.assertEqual(full_name, "Pony Cat")
 
-        full_name = get_full_name("goat", "mortensen")
-        self.assertEqual(full_name, "Goat Mortensen")
+        full_name = get_full_name("goat", "cat")
+        self.assertEqual(full_name, "Goat Cat")
 
 
     def test_first_last_middle(self):
-        """Test names like Goat Mortensen"""
+        """Test names like Goat Studman Cat"""
 
-        full_name = get_full_name("pony", "mortensen", "sweetie")
-        self.assertEqual(full_name, "Pony Sweetie Mortensen")
+        full_name = get_full_name("pony", "cat", "sweetie")
+        self.assertEqual(full_name, "Pony Sweetie Cat")
 
-        full_name = get_full_name("goat", "mortensen", "studman")
-        self.assertEqual(full_name, "Goat Studman Mortensen")
+        full_name = get_full_name("goat", "cat", "studman")
+        self.assertEqual(full_name, "Goat Studman Cat")
 
 
 unittest.main()
